@@ -17,4 +17,4 @@ Since you're working with large ML datasets, never push:
 .npz
 .pth checkpoints (unless small)
 
-Your .gitignore should already block them (exists as a hidden file on your local project folder)
+Your .gitignore should already block them ( .gitignore exists as a hidden file on your local project folder)
