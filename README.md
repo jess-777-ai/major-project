@@ -1,16 +1,21 @@
 INFO: *.csv and *.npz files are NOT uploaded since they too BIG!
 
+=== TO UPDATE NEW CHANGES TO YOUR GITHUB REPO
 
-===
-Below text is what GPT generated:
-===
-## Dataset
+1. Open the path to your project on Powershell
 
-This project uses the NGSIM vehicle trajectory dataset.
+2. 
+git status
+git add .
+git commit -m "Describe what changed"
+git push
 
-Download it from:
-https://catalog.data.gov/dataset/next-generation-simulation-ngsim-vehicle-trajectories
+=== Very important rule for your project
 
-Place the dataset in:
+Since you're working with large ML datasets, never push:
 
-data/Next_Generation_Simulation.csv
+.csv
+.npz
+.pth checkpoints (unless small)
+
+Your .gitignore should already block them (exists as a hidden file on your local project folder)
