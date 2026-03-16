@@ -10,8 +10,8 @@ INFO: *.csv and *.npz files are NOT uploaded since they too BIG!
 4. git commit -m "Describe what changed"
 5. git push
 
-=== Very important rule for your project ===
-
+=== Very important rule for your project 
+===
 Since you're working with large ML datasets, never push:
 .csv
 .npz
