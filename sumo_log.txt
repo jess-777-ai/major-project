@@ -1,0 +1,17 @@
+***Starting server on port 57913 ***
+Loading net-file from 'c:\Users\jessi\OneDrive\Desktop\major_project\sumo\sumo_file.net.xml' ... done (5ms).
+Loading route-files incrementally from 'c:\Users\jessi\OneDrive\Desktop\major_project\sumo\sumo.rou.xml'
+Loading done.
+Simulation started with time: 0.00.
+Error: Vehicle 'veh2' has no valid route. No connection between edge 'E3' and edge 'E4'.
+Quitting (on error).
+Simulation ended at time: 0.00.
+Performance:
+ Duration: 15.43s
+ TraCI-Duration: 0.00s
+ Real time factor: 0
+ UPS: 0.000000
+Vehicles:
+ Inserted: 2 (Loaded: 4)
+ Running: 2
+ Waiting: 4

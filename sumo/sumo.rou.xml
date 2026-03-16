@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+    <vType id="car" accel="2.0" decel="4.5" length="5.0" maxSpeed="30" sigma="0.5"/>
+    <vType id="braking_car" accel="2.0" decel="9.0" length="5.0" maxSpeed="30" sigma="0.5"/>
+
+    <route id="r_left" edges="E1 E2"/> 
+
+    <vehicle id="lead_1" type="braking_car" route="r_left" depart="0.00" departLane="1" departPos="60" departSpeed="20" color="yellow">
+        <stop edge="E1" endPos="150" duration="20.0"/>
+    </vehicle>
+
+    <vehicle id="ego" type="car" route="r_left" depart="0.50" departLane="1" departPos="20" departSpeed="25" color="red"/>
+
+    <vehicle id="v_trail1" type="car" route="r_left" depart="1.00" departLane="1" departPos="0" departSpeed="25" color="white"/>
+    <vehicle id="v_trail2" type="car" route="r_left" depart="2.00" departLane="1" departPos="0" departSpeed="25" color="white"/>
+    <vehicle id="v_trail3" type="car" route="r_left" depart="3.00" departLane="1" departPos="0" departSpeed="25" color="white"/>
+
+</routes>

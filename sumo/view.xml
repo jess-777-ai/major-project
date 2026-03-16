@@ -1,0 +1,8 @@
+<viewsettings>
+    <viewport zoom="400" x="100" y="0"/>
+    <delay value="50"/>
+    <scheme name="real_time_monitoring">
+        <vehicles showName="1" nameSize="10" nameColor="yellow"/>
+        <vehicles showSpeed="1" speedSize="10" speedColor="cyan"/>
+    </scheme>
+</viewsettings>

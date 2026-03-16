@@ -1,0 +1,11 @@
+<routes>
+    <vType id="attacker_type" accel="3.5" decel="6.0" length="5.0" maxSpeed="30" speedMode="0"/>
+    <vType id="ego_type" accel="2.0" decel="4.5" length="5.0" maxSpeed="30"/>
+
+    <route id="r_ego" edges="E1 E2"/>
+    <route id="r_cross" edges="-E3 E4"/> 
+
+    <vehicle id="ego" type="ego_type" route="r_ego" depart="0.00" departPos="20" departSpeed="12.0" color="red"/>
+    
+    <vehicle id="attacker" type="attacker_type" route="r_cross" depart="0.00" departPos="80" departSpeed="max" color="yellow"/>
+</routes>

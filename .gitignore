@@ -1,0 +1,5 @@
+*.csv
+*.npz
+data/
+models/
+__pycache__/

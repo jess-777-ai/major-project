@@ -1,0 +1,9 @@
+<routes>
+    <vType id="swarver_type" accel="2.0" decel="4.5" length="5.0" maxSpeed="30" laneChangeMode="0"/>
+    <vType id="ego_type" accel="2.0" decel="4.5" length="5.0" maxSpeed="30"/>
+
+    <route id="r1" edges="E1 E2"/>
+
+    <vehicle id="ego" type="ego_type" route="r1" depart="0" departLane="1" departPos="20" departSpeed="20" color="red"/>
+    <vehicle id="swarver" type="swarver_type" route="r1" depart="0" departLane="0" departPos="35" departSpeed="18" color="yellow"/>
+</routes>
