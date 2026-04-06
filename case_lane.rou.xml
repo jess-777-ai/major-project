@@ -1,0 +1,8 @@
+<routes>
+    <vType id="car" accel="2.0" decel="4.5" length="5.0" maxSpeed="30"/>
+
+    <route id="r_straight" edges="E1 E2"/> 
+
+    <vehicle id="swarver" type="car" route="r_straight" depart="0.00" departLane="0" departPos="70" departSpeed="22" color="yellow"/>
+    <vehicle id="ego" type="car" route="r_straight" depart="0.00" departLane="1" departPos="20" departSpeed="25" color="red"/>
+</routes>

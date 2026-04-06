@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+    <input>
+        <net-file value="sumo_file.net.xml"/>
+        <route-files value="sumo.rou.xml"/>
+        <gui-settings-file value="view.xml"/>
+    </input>
+    <time>
+        <step-length value="0.1"/>
+    </time>
+    <processing>
+        <collision.action value="warn"/>
+        <time-to-teleport value="-1"/>
+    </processing>
+    <gui_only>
+        <delay value="50"/>
+        <start value="false"/>
+        <quit-on-end value="false"/>
+    </gui_only>
+</sumoConfiguration>

@@ -1,0 +1,10 @@
+<routes>
+    <vType id="car" accel="2.0" decel="4.5" length="5.0" maxSpeed="30"/>
+    <vType id="braking_car" accel="2.0" decel="9.0" length="5.0" maxSpeed="30"/>
+
+    <route id="r_straight" edges="E1 E2"/> 
+
+    <vehicle id="lead_1" type="braking_car" route="r_straight" depart="0.00" departLane="1" departPos="45" departSpeed="20" color="yellow"/>
+    
+    <vehicle id="ego" type="car" route="r_straight" depart="0.00" departLane="1" departPos="10" departSpeed="25" color="red"/>
+</routes>
