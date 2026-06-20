@@ -2,7 +2,7 @@
 
 ***
 
-# 🚗 Predictive V2V Collision Avoidance 
+#  Predictive V2V Collision Avoidance 
 Traditional Autonomous Emergency Braking (AEB) is strictly reactive. This project implements a **Predictive Vehicle-to-Vehicle (V2V) pipeline** that allows cars to "see around corners." Using a deep learning LSTM model and an MQTT network, vehicles predict their physical trajectories up to 3.5 seconds into the future and broadcast their intent to avoid collisions before physical sensors even register a threat.
 
 ## 🛠️ Tech Stack
